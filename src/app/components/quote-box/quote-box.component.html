@@ -1,0 +1,27 @@
+<div class="container text-center">
+
+
+  <div class="row justify-content-center">
+    <div class="card text-success mt-5" style="width:30rem;">
+      <blockquote>
+        <p class="mb-0 p-3">
+          <span>
+            <mat-icon>format_quote</mat-icon>
+            {{ quote.frase }}
+          </span>
+        </p>
+        <footer class="blockquote-footer text-success" [innerText] = "quote.autor + ' em ' + quote.livro"></footer>
+      </blockquote>
+      <div class="row">
+        <a target="blank" 
+        [href]="'https://twitter.com/intent/tweet?text=' + quote.frase + '%20-%20' + quote.livro + '%20-%20' + quote.autor"
+        ><img src="../../../assets/images/icons8-twitter.svg" alt="">
+      </a>
+      </div>
+      <button class="btn btn-outline-success m-2" (click)="getQuote()">
+        <mat-icon>add</mat-icon>
+      </button>
+      </div>
+
+  </div>
+</div>
