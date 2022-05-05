@@ -48,6 +48,7 @@ Abra http://localhost:4200 no seu navegador para visualizar o projeto
 ## :briefcase: Referências
 
 API de frases de livros - https://github.com/allugo/Frases-Livros-API
+
 FreeCodeCamp - https://www.freecodecamp.org/portuguese/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-random-quote-machine
 
 ## :memo: Licença
